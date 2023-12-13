@@ -1,0 +1,16 @@
+/*Design a program that reads data from a file using the FileReader class. 
+Use a BufferedReader to handle IOException*/
+
+Output:
+
+
+
+PS C:\Users\Amrita>  & 'C:\Program Files\Java\jdk-17.0.1\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\Amrita\AppData\Local\Temp\vscodesws_187dd\jdt_ws\jdt.ls-java-project\bin' 'FileReaderExample'
+java.io.FileNotFoundException: path\to\your\file.txt (The system cannot find the path specified)
+        at java.base/java.io.FileInputStream.open0(Native Method)
+        at java.base/java.io.FileInputStream.open(FileInputStream.java:216)  
+        at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+        at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+        at java.base/java.io.FileReader.<init>(FileReader.java:60)
+        at FileReaderExample.main(FileReaderExample.java:13)
+PS C:\Users\Amrita>

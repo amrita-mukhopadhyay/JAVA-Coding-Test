@@ -1,0 +1,11 @@
+/*Write a Java program to create an ArrayList of integers, 
+add elements to it, and then iterate through the list to print each element*/ 
+
+Output:-
+
+Elements in the ArrayList:
+10
+20
+30
+40
+PS C:\Users\Amrita>
